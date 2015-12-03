@@ -27,35 +27,10 @@ body{
 }
 .sec{
     padding-top: 50px;
-    height: 500px;
-    color: #fff;
-    border: solid #000;
     border: 1px solid #000;
-<<<<<<< HEAD
     position: relative;
     height: 500px;
     color: #fff;
-}
-#ce1{
-    position: absolute;
-    top: 80px;
-}
-#sec1 {
-    background-color: aquamarine;
-}
-#sec2 {
-    background-color: orange;
-}
-#sec3 {
-    background-color: blue;
-}
-#sec4 {
-    background-color: red;
-}
-#sec5 {
-    background-color: saddlebrown;
-=======
->>>>>>> justin
 }
 /*#sec1 {*/
 /*padding-top: 50px;*/

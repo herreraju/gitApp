@@ -26,11 +26,36 @@ body{
     height: 100%;
 }
 .sec{
+<<<<<<< HEAD
     padding-top: 50px;
     height: 500px;
     color: #fff;
     border: solid #000;
     border: 1px solid #000;
+=======
+    position: relative;
+    height: 500px;
+    color: #fff;
+}
+#ce1{
+    position: absolute;
+    top: 80px;
+}
+#sec1 {
+    background-color: aquamarine;
+}
+#sec2 {
+    background-color: orange;
+}
+#sec3 {
+    background-color: blue;
+}
+#sec4 {
+    background-color: red;
+}
+#sec5 {
+    background-color: saddlebrown;
+>>>>>>> master
 }
 /*#sec1 {*/
     /*padding-top: 50px;*/
@@ -64,13 +89,8 @@ body{
     background: transparent;
     text-align: center;
 }
-.pan1{
+.btnP{
     position: absolute;
+    top: 50%;
     left: 50%;
-    background-color: rgba(255, 255, 255, 0.5);
-    width: fit-content;
-}
-#modalStyling{
-    position: relative;
-    top: px;
 }

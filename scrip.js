@@ -7,4 +7,9 @@ function res()
     {
         document.getElementsByClassName("sec")[i].style.height = ((window.innerHeight).toString() + "px");
     }
+<<<<<<< HEAD
 }
+=======
+    //document.getElementById("pan1").style.left = (((window.innerWidth / 2)  - (parseInt(document.getElementById("pan1").style.width) / 2)).toString() + "px");
+}
+>>>>>>> justin

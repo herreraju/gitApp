@@ -9,7 +9,9 @@
     display: inline;
     color: white;
 }
-
+body{
+    background: linear-gradient(#cf58b9, white);
+}
 .navbar-inverse .navbar-nav > li > a {
     color: #ffffff;
     font-family: Lato;
@@ -24,6 +26,13 @@
     height: 100%;
 }
 .sec{
+<<<<<<< HEAD
+    padding-top: 50px;
+    height: 500px;
+    color: #fff;
+    border: solid #000;
+    border: 1px solid #000;
+=======
     position: relative;
     height: 500px;
     color: #fff;
@@ -46,7 +55,36 @@
 }
 #sec5 {
     background-color: saddlebrown;
+>>>>>>> master
 }
+/*#sec1 {*/
+    /*padding-top: 50px;*/
+    /*height: 500px;*/
+    /*color: #fff;*/
+    /*background-color: aquamarine;*/
+/*}*/
+/*#sec2 {*/
+    /*padding-top:50px;*/
+    /*height:500px;color: #fff;*/
+    /*background-color: orange;*/
+/*}*/
+/*#sec3 {*/
+    /*padding-top: 50px;*/
+    /*height: 500px;*/
+    /*color: #fff;*/
+    /*background-color: blue;*/
+/*}*/
+/*#sec4 {*/
+    /*padding-top:50px;*/
+    /*height:500px;color: #fff;*/
+    /*background-color: red;*/
+/*}*/
+/*#sec5 {*/
+    /*padding-top: 50px;*/
+    /*height: 500px;*/
+    /*color: #fff;*/
+    /*background-color: saddlebrown;*/
+/*}*/
 #jumb1{
     background: transparent;
     text-align: center;

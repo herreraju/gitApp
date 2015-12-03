@@ -9,7 +9,9 @@
     display: inline;
     color: white;
 }
-
+body{
+    background: linear-gradient(#cf58b9, white);
+}
 .navbar-inverse .navbar-nav > li > a {
     color: #ffffff;
     font-family: Lato;
@@ -23,34 +25,41 @@
     transition: 0.7s all linear;
     height: 100%;
 }
-#sec1 {
+.sec{
     padding-top: 50px;
     height: 500px;
     color: #fff;
-    background-color: aquamarine;
+    border: solid #000;
+    border: 1px solid #000;
 }
-#sec2 {
-    padding-top:50px;
-    height:500px;color: #fff;
-    background-color: orange;
-}
-#sec3 {
-    padding-top: 50px;
-    height: 500px;
-    color: #fff;
-    background-color: blue;
-}
-#sec4 {
-    padding-top:50px;
-    height:500px;color: #fff;
-    background-color: red;
-}
-#sec5 {
-    padding-top: 50px;
-    height: 500px;
-    color: #fff;
-    background-color: saddlebrown;
-}
+/*#sec1 {*/
+    /*padding-top: 50px;*/
+    /*height: 500px;*/
+    /*color: #fff;*/
+    /*background-color: aquamarine;*/
+/*}*/
+/*#sec2 {*/
+    /*padding-top:50px;*/
+    /*height:500px;color: #fff;*/
+    /*background-color: orange;*/
+/*}*/
+/*#sec3 {*/
+    /*padding-top: 50px;*/
+    /*height: 500px;*/
+    /*color: #fff;*/
+    /*background-color: blue;*/
+/*}*/
+/*#sec4 {*/
+    /*padding-top:50px;*/
+    /*height:500px;color: #fff;*/
+    /*background-color: red;*/
+/*}*/
+/*#sec5 {*/
+    /*padding-top: 50px;*/
+    /*height: 500px;*/
+    /*color: #fff;*/
+    /*background-color: saddlebrown;*/
+/*}*/
 #jumb1{
     background: transparent;
     text-align: center;

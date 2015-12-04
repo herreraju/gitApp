@@ -1,3 +1,40 @@
+@media(min-width:768px){
+    body{
+        padding-top: 65px;
+    }
+}
+@media (max-width: 991px) {
+    .navbar-header {
+        float: none;
+    }
+    .navbar-toggle {
+        display: block;
+    }
+    .navbar-collapse {
+        border-top: 1px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+    }
+    .navbar-collapse.collapse {
+        display: none!important;
+    }
+    .navbar-collapse.collapse.in {
+        display: block!important;
+    }
+    .navbar-nav {
+        float: none!important;
+        margin: 7.5px -15px;
+    }
+    .navbar-nav>li {
+        float: none;
+    }
+    .navbar-nav>li>a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+}
+.navbar-fixed-top .navbar-collapse {
+    max-height: 1000px;
+}
 .navbar, .navbar-inverse {
     border-radius: 0;
     border: none;
@@ -11,6 +48,7 @@
 }
 body{
     background: linear-gradient(#cf58b9, white);
+    padding-top: 0px;
 }
 .navbar-inverse .navbar-nav > li > a {
     color: #ffffff;
@@ -27,39 +65,10 @@ body{
 }
 .sec{
     padding-top: 50px;
-    border: 1px solid #000;
     position: relative;
     height: 500px;
     color: #fff;
 }
-/*#sec1 {*/
-/*padding-top: 50px;*/
-/*height: 500px;*/
-/*color: #fff;*/
-/*background-color: aquamarine;*/
-/*}*/
-/*#sec2 {*/
-/*padding-top:50px;*/
-/*height:500px;color: #fff;*/
-/*background-color: orange;*/
-/*}*/
-/*#sec3 {*/
-/*padding-top: 50px;*/
-/*height: 500px;*/
-/*color: #fff;*/
-/*background-color: blue;*/
-/*}*/
-/*#sec4 {*/
-/*padding-top:50px;*/
-/*height:500px;color: #fff;*/
-/*background-color: red;*/
-/*}*/
-/*#sec5 {*/
-/*padding-top: 50px;*/
-/*height: 500px;*/
-/*color: #fff;*/
-/*background-color: saddlebrown;*/
-/*}*/
 #jumb1{
     background: transparent;
     text-align: center;
@@ -70,7 +79,24 @@ body{
     background-color: rgba(255, 255, 255, 0.5);
     width: fit-content;
 }
+#myModal{
+    color: black;
+    font-size:20px;
+}
 #modalStyling{
     position: relative;
     top: px;
+}
+#phoneDisplay{
+    position: absolute;
+    top: 0px;
+    margin-top: 10px;
+    font-size: 27px;
+    font-family: "Courier New", monospace;
+}
+.secsub{
+    position: absolute;
+    color: black;
+    font-size: 27px;
+    top: 95px;
 }
